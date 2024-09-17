@@ -1,0 +1,28 @@
+.hi{
+    width: 100%;
+    height: 500px;
+    background-color: royalblue;
+    color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    animation-duration: 4s;
+    animation-name: main;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes main{
+    from{
+        background-color: aqua;
+    }
+
+    to{
+        background-color: gold;
+    }
+}
