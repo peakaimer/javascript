@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment day 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="day1.html">DAY 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="day2.html">DAY 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="day3.html">DAY 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DAY 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DAY 5</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container border p-3 w-100% m-auto">
+
+    <code>
+      <h3 class="container text-center">EXCERCISE</h3>
+        let restaurant = { <br>
+            name: 'food mataz',<br>
+            Africandish: {<br>
+                swallow: ['eba', 'fufu', 'Akpu'],<br>
+                soup: ['egusi', 'Okro', 'Ofada'],<br>
+                meat: ['beef', 'chicken', 'fish']<br>
+            },<br>
+            chinesedish: {<br>
+                meat: ['frog', 'crab'],<br>
+                rice: ['Chinese rice', 'ofada']<br>
+            },<br>
+  
+            drinks: {<br>
+                drink: ['origin', 'coke'],<br>
+                amount:  ['#3000'],<br>
+                location: 'u.i ibadan'<br>
+            }<br>
+        };<br>
+  
+        alert(`I need ${restaurant.name[0]}, ${restaurant.Africandish.swallow[1]}, <br>
+        with ${restaurant.Africandish.soup[0]},<br>
+        and ${restaurant.Africandish.meat[1]},<br>
+            ${restaurant.drinks.drink[1]},<br>
+            ${restaurant.drinks.amount[0]},<br>
+            ${restaurant.drinks.location}`);<br>
+  
+            alert(`I need a plate of ${restaurant.Africandish.swallow[1]}, with ${restaurant.Africandish.soup[0]}, and ${restaurant.Africandish.meat[1]}, alongside ${restaurant.drink.drink[1]}, at a price of ${restaurant.drink.amount[0]}, in ${restaurant.name}, located at ${restaurant.drink.location}`);<br>
+  
+  
+  
+    <h3 class="container text-center">
+        Assignment
+    </h3><br>
+  
+  
+        const myusers = [<br>
+        {
+          name:'Brook',<br>
+          scores:75,
+          skills:['HTMl', 'CSS', 'JS'],<br>
+          age:<br>
+        },<br>
+        {<br>
+          name:'Alex',<br>
+          scores:80,
+          skills:['HTML', 'CSS', 'JS', 'REACT'],<br>
+          age:<br>
+        },<br>
+        {<br>
+          name:'David',<br>
+          scores:75,<br>
+          skills:['HTML', 'CSS'],<br>
+          age:22<br>
+        },<br>
+        {<br>
+          name:'John',<br>
+          scores:85,<br>
+          skills:['HTML'],<br>
+          age:25<br>
+        },<br>
+        {<br>
+          name:'Sara',<br>
+          scores:95,<br>
+          skills:['HTML', 'CSS', 'JS'],<br>
+          age: 26<br>
+        },<br>
+        {<br>
+          name:'Martha',<br>
+          scores:80,<br>
+          skills:['HTML', 'CSS', 'JS'],<br>
+          age:18<br>
+        },<br>
+        {<br>
+          name:'Matthew',<br>
+          scores:60,<br>
+          skills:[],<br>
+          age:22<br>
+        },<br>
+        {<br>
+          name:'Thomas',<br>
+          scores:90,<br>
+          skills:['HTML', 'CSS', 'DART', 'KOTLIN'],<br>
+          age:<br>
+        },<br>
+        {<br>
+          name:'Promise',<br>
+          scores:90,<br>
+          skills:['HTML', 'CSS', 'JS', 'FLUTTER'],<br>
+          age:20<br>
+        }<br>
+     ];<br>
+     
+     alert(`In data provided the highest score is ${myusers[4].name} with a score of ${myusers[4].scores}`);
+    </code>
+  </div>
+
+
+
+
+
+    <script>
+        let restaurant = {
+            name: 'food mataz',
+            Africandish: {
+                swallow: ['eba', 'fufu', 'Akpu'],
+                soup: ['egusi', 'Okro', 'Ofada'],
+                meat: ['beef', 'chicken', 'fish']
+            },
+            chinesedish: {
+                meat: ['frog', 'crab'],
+                rice: ['Chinese rice', 'ofada']
+            },
+
+            drink: {
+                drink: ['origin', 'coke'],
+                amount:  ['#3000'],
+                location: 'u.i ibadan'
+            }
+        };
+
+        alert(`I need a plate of ${restaurant.Africandish.swallow[1]}, with ${restaurant.Africandish.soup[0]}, and ${restaurant.Africandish.meat[1]}, alongside ${restaurant.drink.drink[1]}, at a price of ${restaurant.drink.amount[0]}, in ${restaurant.name}, located at ${restaurant.drink.location}`);
+
+
+        const myusers = [
+   {
+     name:'Brook',
+     scores:75,
+     skills:['HTMl', 'CSS', 'JS'],
+     age:16
+   },
+   {
+     name:'Alex',
+     scores:80,
+     skills:['HTML', 'CSS', 'JS', 'REACT'],
+     age:18
+   },
+   {
+     name:'David',
+     scores:75,
+     skills:['HTML', 'CSS'],
+     age:22
+   },
+   {
+     name:'John',
+     scores:85,
+     skills:['HTML'],
+     age:25
+   },
+   {
+     name:'Sara',
+     scores:95,
+     skills:['HTML', 'CSS', 'JS'],
+     age: 26
+   },
+   {
+     name:'Martha',
+     scores:80,
+     skills:['HTML', 'CSS', 'JS'],
+     age:18
+   },
+   {
+     name:'Matthew',
+     scores:60,
+     skills:[],
+     age:22
+   },
+   {
+     name:'Thomas',
+     scores:90,
+     skills:['HTML', 'CSS', 'DART', 'KOTLIN'],
+     age:20
+   },
+   {
+     name:'Promise',
+     scores:90,
+     skills:['HTML', 'CSS', 'JS', 'FLUTTER'],
+     age:20
+   }
+];
+
+alert(`In data provided the highest score is ${myusers[4].name} with a score of ${myusers[4].scores}`);
+
+
+
+
+    </script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
