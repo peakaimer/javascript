@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Day 4</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body class="bg-info-rgb">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="day1.html">DAY 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="day2.html">DAY 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="day3.html">DAY 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="day4.html">DAY 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="day5.html">DAY 5</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+    <h4 class="text-center">With cupious example differentiate between comparisom and logical operators</h4> <br>
+    <ol>
+        <li>
+            <h5>Comparisom Operator</h5>
+
+            <p>
+                Comparison operators are used to compare two values or expressions. They return a Boolean value (true or
+                false) based on whether the comparison is true or not. <br>
+                These operators help in determining relationships between values, such as equality, inequality, and
+                relative magnitude. <br>
+
+                Here are the main comparison operators: <br>
+            </p>
+        </li>
+        <ul>
+            <li> ==: Equal to</li>
+            <li>!=: Not equal to</li>
+            <li>===: Strict equal to (compares both value and type)</li>
+            <li>!==: Strict not equal to (compares both value and type)</li>
+            <li>>: Greater than</li>
+            <li>
+                <: Less than</li>
+            <li>>=: Greater than or equal to</li>
+            <li>
+                <=: Less than or equal to</li>
+        </ul>
+
+        <h6>Examples of Comparison Operators:</h6> <br><br>
+        <div class="container w-50 border">
+            <code>
+                let a = 10; <br>
+                let b = 20; <br>
+                let c = "10"; <br><br>
+    
+                // Example 1: Equal to (==)<br>
+                console.log(a == c); // true, because '10' is equal to "10" in value<br><br>
+    
+                // Example 2: Strict equal to (===)<br>
+                console.log(a === c); // false, because '10' (number) is not equal to "10" (string) in type<br><br>
+    
+                // Example 3: Not equal to (!=)<br>
+                console.log(a != b); // true, because 10 is not equal to 20<br><br>
+    
+                // Example 4: Strict not equal to (!==)<br>
+                console.log(a !== c); // true, because 10 (number) is not strictly equal to "10" (string)<br><br>
+    
+                // Example 5: Greater than (>)<br>
+                console.log(b > a); // true, because 20 is greater than 10<br><br>
+    
+                // Example 6: Less than (<)<br>
+                console.log(a < b); // true, because 10 is less than 20<br><br>
+    
+                // Example 7: Greater than or equal to (>=)<br>
+                console.log(a >= 10); // true, because 10 is equal to 10<br>
+    
+                // Example 8: Less than or equal to (<=)<br>
+                console.log(a <= b); // true, because 10 is less than 20<br>
+    
+                </code>
+        </div>
+
+        <li><h5>Logical Operators</h5>
+            <p>Logical operators are used to combine multiple Boolean expressions or to reverse the Boolean value. <br>
+                They are crucial in building complex conditional statements, where multiple conditions must be checked
+                together. <br>
+                Here are the main logical operators: <br>
+            </p>
+
+            <ul>
+                <li>&&: Logical AND (returns true if both operands are true)</li>
+                <li>||: Logical OR (returns true if at least one operand is true)</li>
+                <li>!: Logical NOT (returns the opposite Boolean value)</li>
+            </ul>
+            <h5>Examples of Logical Operators:</h5><br><br>
+
+            <div class="container border w-50">
+                <code>
+                    let x = 5; <br>
+                    let y = 10;<br>
+                    let z = 15;<br><br>
+
+                    // Example 1: Logical AND (&&)<br>
+                    console.log(x < y && y < z); // true, because both conditions are true (5 < 10 and 10 < 15)<br><br>
+
+                    // Example 2: Logical OR (||)<br>
+                    console.log(x > y || y < z); // true, because the second condition (y < z) is true<br><br>
+
+                    // Example 3: Logical NOT (!)<br>
+                    console.log(!(x > y)); // true, because x > y is false, and !false is true<br><br>
+
+                    // Example 4: Complex condition using AND and OR<br>
+                    console.log((x < y && y > z) || (x == 5)); // true, because x == 5 is true<br><br>
+
+                    // Example 5: Using NOT with AND<br>
+                    console.log(!(x > 10 && y > 10)); // true, because x > 10 is false, and the entire AND condition is false, so !false is true<br>
+
+                </code>
+            </div>
+
+        </li>
+        <li></li>
+
+    </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
