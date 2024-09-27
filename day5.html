@@ -37,7 +37,7 @@
     </nav>
 
 
-    <h1 id="greeting"></h1>
+    <h1 id="greeting" class="text-center"></h1>
 
     <script>
         // Get the current hour from the device time
@@ -49,6 +49,7 @@
         // Conditional logic to determine the appropriate greeting
         if (x >= 5 && x < 12) {
             greeting = "Good Morning";
+            document.getElementById("greeting").innerHTML = greeting.style.color
         } else if (x >= 12 && x < 17) {
             greeting = "Good Afternoon";
         } else if (x >= 17 && x < 21) {
